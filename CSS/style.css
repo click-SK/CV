@@ -1,0 +1,92 @@
+
+body{
+    display: block;
+}
+.body__wrapper {
+    max-width: 595px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head__wrapper {
+    display: flex;
+    width: 100%;
+    height: 226px;
+
+}
+.photo__wrapper {
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1{
+    font-family: 'Koulen', regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-title);
+}
+
+.title h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Gray 1 */
+
+    color:var(--color-text);
+
+}
+.section__wrapper {
+}
+.section__row {
+    display: flex;
+    height: 275px;
+}
+.section__content {
+    flex: 0 1 50%;
+}
+.section__title {
+}
+.content {
+}
+.contact {
+}
+.content__info {
+}
+.content__info__portfolio {
+}
+.content__info__my-project {
+}
+.content__info__infomation {
+}
+.content__info__management {
+}
+.content__info__secretary {
+}
+.content__info__technologies {
+}
+.content__info__tools {
+}
+.content__info__language {
+}
+.content__info__freelance {
+}
+.content__info__coyot {
+}
+.content__info__vilk {
+}
+.content__info__alz {
+}
