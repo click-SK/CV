@@ -1,6 +1,6 @@
 
 body{
-    display: block;
+    
     background: var(--color-backgroun-body);
     /* position: relative; */
 }
