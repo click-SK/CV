@@ -1,7 +1,7 @@
 
 body{
     display: block;
-    background-color: #1E1E1E;
+    background: var(--color-backgroun-body);
     /* position: relative; */
 }
 .body__wrapper {
@@ -10,10 +10,11 @@ body{
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background: #ffffff;
-    border: 1px solid #7B6856 ;
+    background: var(--color-background);
+    border: 1px solid var(--color-border) ;
     border-radius: 10px;
     overflow: hidden;
+    padding: 5px;
     
 }
 
@@ -86,12 +87,18 @@ body{
     margin: 20px;
     z-index: 100;
 }
+
+img{
+    filter: drop-shadow(0px 4px 4px var(--color-img-shadow));
+}
+
 .title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    z-index: 100;
 }
 
 .title h1{
@@ -145,7 +152,7 @@ body{
 .content {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     color: var(--color-text);
@@ -449,3 +456,47 @@ a:hover {
 
 }
 
+.toggler__wraper{
+position: absolute;
+display: flex;
+left: 64%;
+top: 7%;
+z-index: 105;
+
+}
+
+.toggler__lang{
+    margin-right: 2px;
+}
+
+.lang-button{
+    height: 30px;
+    width: 30px;
+    background: var(--color-background);
+    color: var(--color-text);
+    filter: drop-shadow(0px 4px 4px var(--color-img-shadow));
+    border-radius: 5px;
+    border: 1px solid var(--color-border);
+    margin-right: 2px;
+}
+
+.s-icon {
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: var(--color-background);
+    color: var(--color-text);
+    /* right: 100%; */
+    border: 1px solid var(--bg-black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px var(--color-img-shadow));
+    border: 1px solid var(--color-border);
+}
+
+.s-icon i {
+    line-height: 30px;
+}
