@@ -148,6 +148,7 @@ img{
     color: var(--color-title-section);
     margin-bottom: 10px;
     z-index: 100;
+    margin-top: 10px;
 }
 .content {
     font-family: 'Inter';
