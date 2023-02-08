@@ -2,7 +2,7 @@
 body{
     
     background: var(--color-backgroun-body);
-    /* position: relative; */
+    
 }
 .body__wrapper {
     position: relative;
