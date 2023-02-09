@@ -215,6 +215,9 @@ img{
     background: var(--color-list);
 
 }
+a{
+    color: var(--color-text);
+}
 .content__info__portfolio a  {
     margin-left: 20px;
     color: var(--color-text);
