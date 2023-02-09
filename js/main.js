@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
     $(".day-night").click(function(){
-        $("i").toggleClass("fa-sun");
-        $("i").toggleClass("fa-moon");
+        $(".toggler__day-night i").toggleClass("fa-sun");
+        $(".toggler__day-night i").toggleClass("fa-moon");
         $("body").toggleClass("body-dark");
     });
 
