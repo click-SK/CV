@@ -18,18 +18,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="lib/jquery-3.6.3.min.js"></script>
 </head>
-<body class="">
+<body class="parallax">
     <section class="section__wrapper">
 
     <div class="body__wrapper body__wrapper-dark">
-        <div class="background 1">
-            <div id="item1" class="background-item"></div>
-            <div id="item2" class="background-item"></div>
-            <div id="item3" class="background-item"></div>
-            <div id="item4" class="background-item"></div>
-            <div id="item5" class="background-item"></div>
-            <div id="item6" class="background-item"></div>
-            <div id="item7" class="background-item"></div>
+        <div class="background 1 ">
+            <div id="item1" class="background-item cherry"></div>
+            <div id="item2" class="background-item cherry"></div>
+            <div id="item3" class="background-item cherry"></div>
+            <div id="item4" class="background-item cherry"></div>
+            <div id="item5" class="background-item cherry"></div>
+            <div id="item6" class="background-item cherry"></div>
+            <div id="item7" class="background-item cherry"></div>
         </div>
         <header class="head__wrapper">
             <div class="photo__wrapper">
@@ -69,15 +69,15 @@
                 <div class="section__content">
                     <h2 class="section__title lng-education">Education</h2>
                     <div class="content section__content__education">
-                        <div class="content__info content__info__infomation">
+                        <div class="content__info content__info__infomation section__education__item">
                             <p class="lng-institution">Private higher educational institution "European University"</p>
                             <span class="lng-inform">Information systems and technologies from 2022.</span>
                         </div>
-                        <div class="content__info content__info__management">
+                        <div class="content__info content__info__management section__education__item">
                             <p class="lng-institution">Private higher educational institution "European University"</p>
                             <span class="lng-management">Management from 2016 to 2019</span>
                         </div>
-                        <div class="content__info content__info__secretary">
+                        <div class="content__info content__info__secretary section__education__item">
                             <p class="lng-zabolotne">Zabolotne higher specialized school No. 31 named after D.K. Zabolotny</p>
                             <span class="lng-secretary">Computer typing operator, secretary,from 2009 to 2012</span>
                         </div>
@@ -134,7 +134,7 @@
                             <span class="lng-freelanse-date">from 11.2021</span>
                             <ul>
                                 <li class="lng-layout">HTML - layout</li>
-                                <li class="lngjs-comp">JS - components</li>
+                                <li class="lng-js-comp">JS - components</li>
                                 <li class="lng-logo">Creation of logos.</li>
                                 <li class="lng-brand">Brandbook</li>
                                 <li class="lng-baners">Photo editing. Creating banners</li>
@@ -158,18 +158,22 @@
 
                 </div>
             </div>
+            <div class="toggler__wraper">
+                <div class="toggler__lang">
+                    <button id="en" class="toggler__lang__EN lang-button">EN</button>
+                    <button id="ua" class="toggler__lang__UA lang-button">UA</button>
+                </div>
+                <div class="toggler__day-night day-night s-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
         </section>
-        <div class="toggler__wraper">
-            <div class="toggler__lang">
-                <button id="EN" class="toggler__lang__EN lang-button">EN</button>
-                <button id="UA" class="toggler__lang__UA lang-button">UA</button>
-            </div>
-            <div class="toggler__day-night day-night s-icon">
-                <i class="fas fa-moon"></i>
-            </div>
-        </div>
     </div>
     <script src="js/main.js"></script>
     <script src="constant/lang.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>
+	<script>
+		parallaxMouse({ elements: '.cherry', moveFactor: 30, wrap: '.parallax'})
+	</script>
 </body>
 </html>

@@ -24,8 +24,8 @@ const langArr = {
         "en": 'Experience'
     },
     'mob':{
-        "ua": 'Тел:',
-        "en": 'mob:'
+        "ua": 'Тел: +380 63 553 0114',
+        "en": 'mob: +380 63 553 0114'
     },
     'portfolio':{
         "ua": 'Портфоліо:',
@@ -40,8 +40,8 @@ const langArr = {
         "en": 'Private higher educational institution "European University"'
     },
     'zabolotne':{
-        "ua": 'Zabolotne higher specialized school No. 31 named after D.K. Zabolotny',
-        "en": 'Заболотне вище профільне училище №31 ім. Д.К. Заболотного'
+        "en": 'Zabolotne higher specialized school No. 31 named after D.K. Zabolotny',
+        "ua": 'Заболотне вище профільне училище №31 ім. Д.К. Заболотного'
     },
     'inform':{
         "ua": 'Information systems and technologies from 2022.',
@@ -119,10 +119,7 @@ const langArr = {
         "ua": 'Керівник відділу контенту',
         "en": 'Head of the content department',
     },
-    'coyot':{
-        "ua": 'Rерівник відділу контенту',
-        "en": 'Head of the content department',
-    },
+
     'coyot-date':{
         "ua": 'з 01.2023',
         "en": 'from 01.2023',
