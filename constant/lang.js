@@ -44,8 +44,8 @@ const langArr = {
         "ua": 'Заболотне вище профільне училище №31 ім. Д.К. Заболотного'
     },
     'inform':{
-        "ua": 'Information systems and technologies from 2022.',
-        "en": 'Інформаційні системи та технології з 2022 р.'
+        "en": 'Information systems and technologies from 2022.',
+        "ua": 'Інформаційні системи та технології з 2022 р.'
     },
     'management':{
         "ua": 'Менеджментз 2016 по 2019 р.',
