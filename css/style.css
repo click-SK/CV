@@ -223,6 +223,8 @@ a{
     color: var(--color-text);
 }
 
+
+
 .content__info__portfolio a span{
     /* margin-left: 20px; */
     font-size: 10px;
@@ -529,6 +531,11 @@ z-index: 105;
     margin-right: 2px;
 }
 
+.lang-button:hover{
+    color: var(--color-link);
+    border: 1px solid var(--color-link);
+}
+
 .s-icon {
     height: 30px;
     width: 40px;
@@ -548,4 +555,8 @@ z-index: 105;
 
 .s-icon i {
     line-height: 30px;
+}
+
+i:hover{
+    color: var(--color-link);
 }
