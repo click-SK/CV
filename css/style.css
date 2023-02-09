@@ -500,6 +500,14 @@ z-index: 105;
 }
 
 .btn-download{
+    height: 30px;
+    width: 30px;
+    background: var(--color-background);
+    color: var(--color-text);
+    filter: drop-shadow(0px 4px 4px var(--color-img-shadow));
+    border-radius: 5px;
+    border: 1px solid var(--color-border);
+    margin-right: 2px;
     text-align: center;
     line-height: 30px;
   

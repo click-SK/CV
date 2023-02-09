@@ -12,12 +12,22 @@ $(document).ready(function(){
             let lang = $(this).attr('id')
             $.each(langArr, function(key){
                 $('.lng-' + key).html(langArr[key][lang]);
-            })
+            });
 
+            // let link = '/img/CV/Kushnir-' + lang + '.pdf';
+            // let href = $('#donwload').attr('href');
+            // console.log(href);
+            $('.toggler__wraper a').attr('href', '/img/CV/Kushnir-' + lang + '.pdf' )
+            console.log($('#donwload').attr('href'));
+            
         })
        
     })
 
 
+
+
+
+    // console.log($('#donwload').attr('href'));
 
 })
