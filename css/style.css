@@ -491,6 +491,20 @@ top: 2%;
 z-index: 105;
 
 }
+.toggler__wraper a{
+    margin-right: 5px;
+}
+
+.toggler__wraper a:hover{
+    border: 1px solid var(--color-link);
+}
+
+.btn-download{
+    text-align: center;
+    line-height: 30px;
+  
+}
+
 
 .toggler__lang{
     margin-right: 2px;
