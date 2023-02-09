@@ -13,10 +13,6 @@ $(document).ready(function(){
             $.each(langArr, function(key){
                 $('.lng-' + key).html(langArr[key][lang]);
             });
-
-            // let link = '/img/CV/Kushnir-' + lang + '.pdf';
-            // let href = $('#donwload').attr('href');
-            // console.log(href);
             $('.toggler__wraper a').attr('href', '/img/CV/Kushnir-' + lang + '.pdf' )
             console.log($('#donwload').attr('href'));
             
@@ -24,10 +20,5 @@ $(document).ready(function(){
        
     })
 
-
-
-
-
-    // console.log($('#donwload').attr('href'));
 
 })
