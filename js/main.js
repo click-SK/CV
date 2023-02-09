@@ -13,7 +13,7 @@ $(document).ready(function(){
             $.each(langArr, function(key){
                 $('.lng-' + key).html(langArr[key][lang]);
             });
-            $('.toggler__wraper a').attr('href', '/img/CV/Kushnir-' + lang + '.pdf' )
+            $('.toggler__wraper a').attr('href', 'img/CV/Kushnir-' + lang + '.pdf' )
             console.log($('#donwload').attr('href'));
             
         })
