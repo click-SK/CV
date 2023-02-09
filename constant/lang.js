@@ -24,8 +24,8 @@ const langArr = {
         "en": 'Experience'
     },
     'mob':{
-        "ua": 'Тел: +380 63 553 0114',
-        "en": 'mob: +380 63 553 0114'
+        "ua": 'Тел:',
+        "en": 'mob:'
     },
     'portfolio':{
         "ua": 'Портфоліо:',
