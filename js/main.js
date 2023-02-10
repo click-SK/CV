@@ -12,13 +12,12 @@ $(document).ready(function(){
             let lang = $(this).attr('id')
             $.each(langArr, function(key){
                 $('.lng-' + key).html(langArr[key][lang]);
+                
             });
             $('.toggler__wraper a').attr('href', 'img/CV/Kushnir-' + lang + '.pdf' )
-            console.log($('#donwload').attr('href'));
             
         })
        
     })
-
-
 })
+
