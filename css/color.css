@@ -1,7 +1,7 @@
 :root{
     /* day */
     --color-title: #7B6856;;
-    --color-title-section: rgb(100 100 100);
+    --color-title-section: rgb(68, 68, 68);
     --color-text: black;;
     --color-list: #767676;
     --color-h3: #4F4F4F;
@@ -26,16 +26,16 @@
     --color-link-dark: #039bfa;
 } */
 .body-dark{
-    --color-title: #c0a3ff;;
-    --color-title-section: rgb(208, 206, 206);
+    --color-title: #793cfe;
+    --color-title-section: rgb(218, 192, 255);
     --color-text: rgb(255, 255, 255);;
-    --color-list: #9683ff;
+    --color-list: #793cfe;
     --color-h3: #4F4F4F;
-    --color-background-circles: rgba(73, 30, 138, 0.757);
+    --color-background-circles: rgba(73, 30, 138, 0.183);
     --color-background: #222120;
     --color-backgroun-body: #5d5d5d;
     --color-link: #039bfa;
-    --color-img-shadow:rgba(53, 0, 186, 0.352);
+    --color-img-shadow:rgba(53, 0, 186, 0.145);
     --color-border: #ffffff48;
 }
     

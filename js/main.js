@@ -10,11 +10,16 @@ $(document).ready(function(){
 
         $('.lang-button').click(function(){
             let lang = $(this).attr('id')
+            
             $.each(langArr, function(key){
                 $('.lng-' + key).html(langArr[key][lang]);
                 
             });
             $('.toggler__wraper a').attr('href', 'img/CV/Kushnir-' + lang + '.pdf' )
+
+            if(lang === 'ua'){
+                $('.lng-title').addClass('lng-title-ua') 
+            } else $('.lng-title').removeClass('lng-title-ua')
             
         })
        

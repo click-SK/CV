@@ -3,7 +3,8 @@ body{
     
     background: var(--color-backgroun-body);
     /* position: relative; */
-    overflow-y:hidden
+    overflow-y: hidden;
+    
 }
 .body__wrapper {
     position: relative;
@@ -135,12 +136,12 @@ img{
 .title h3{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
     text-align: center;
-    color:var(--color-text);
+    color:var(--color-title-section);
 
 }
 .section__wrapper {
@@ -559,4 +560,72 @@ z-index: 105;
 
 i:hover{
     color: var(--color-link);
+}
+
+.lng-title-ua{
+    font-family: 'Oswald';
+}
+
+/* responsive */
+@media (max-width: 501px){
+    body{
+        overflow-y: visible;
+    }
+    .head__wrapper {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    .photo__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    img {
+        vertical-align: top;
+        width: 200px;
+        
+    }
+
+    .lng-title {
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
+
+    .section__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__info__portfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__info__my-project a {
+        margin: 6px 0 0 0;
+    }
+
+    .content__info__my-project__block{
+        display: flex;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+
+    .toggler__wraper {
+        top: 1%;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 501px){
+    img {
+        vertical-align: top;
+        width: 150px;
+        margin-top: 20px;
+        
+    }
 }

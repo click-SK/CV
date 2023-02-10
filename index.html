@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-null.css">
     <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="css/theme-dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="lib/jquery-3.6.3.min.js"></script>
 </head>
 <body class="parallax">
@@ -58,9 +60,11 @@
                         </div>
                         <div class="content__info content__info__my-project">
                             <h3 class="lng-projects">My projects: </h3>
-                            <a href="https://click-sk.github.io/Iphone/">https://click-sk.github.io/Iphone/</a>
-                            <a href="https://click-sk.github.io/watchstore/">https://click-sk.github.io/watchstore/</a>
-                            <a href="https://click-sk.github.io/site-portfolio/">https://click-sk.github.io/site-portfolio/</a>
+                            <div class="content__info__my-project__block">
+                                <a href="https://click-sk.github.io/Iphone/">https://click-sk.github.io/Iphone/</a>
+                                <a href="https://click-sk.github.io/watchstore/">https://click-sk.github.io/watchstore/</a>
+                                <a href="https://click-sk.github.io/site-portfolio/">https://click-sk.github.io/site-portfolio/</a>
+                            </div>
                             
                         </div>
                     </div>
@@ -174,10 +178,7 @@
     <script src="constant/lang.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>
 	<script>
-		parallaxMouse({ elements: '.cherry', moveFactor: 20, wrap: '.parallax'})
+		parallaxMouse({ elements: '.cherry', moveFactor: 30, wrap: '.parallax'})
 	</script>
-
-    <!-- https://click-sk.github.io/CV/img/CV/Kushnir-en.pdf -->
-    <!-- https://click-sk.github.io/img/CV/Kushnir-en.pdf -->
 </body>
 </html>
