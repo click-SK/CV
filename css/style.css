@@ -126,7 +126,8 @@ img{
 }
 
 .lng-title-ua{
-    font-size: 34px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 .lng-title-en{
     font-weight: 400;
@@ -618,14 +619,19 @@ i:hover{
         top: 1%;
         margin: 0;
     }
+    .lng-title-ua{
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
 
 }
 
-@media (max-width: 501px){
+@media (max-width: 301px){
     img {
         vertical-align: top;
         width: 150px;
         margin-top: 20px;
         
     }
+
 }
